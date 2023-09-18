@@ -1,5 +1,6 @@
-package com.example.cashcard;
+package com.example.cashcard.repositories;
 
+import com.example.cashcard.models.CashCard;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.repository.JpaRepository;

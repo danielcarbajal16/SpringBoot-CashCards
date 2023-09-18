@@ -1,10 +1,12 @@
-package com.example.cashcard;
+package com.example.cashcard.controllers;
 
 import java.net.URI;
 import java.security.Principal;
 // import java.util.ArrayList;
 import java.util.List;
 
+import com.example.cashcard.models.CashCard;
+import com.example.cashcard.repositories.CashCardRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

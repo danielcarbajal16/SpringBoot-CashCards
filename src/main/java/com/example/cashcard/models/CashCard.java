@@ -1,4 +1,4 @@
-package com.example.cashcard;
+package com.example.cashcard.models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
